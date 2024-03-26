@@ -271,19 +271,22 @@
     <Section id="contacto">
         <h3 class="titulo-seccion">Contactanos ahora</h3>
         <div class="contenedor-form">
-            <form action="">
+            <form action="https://formsubmit.co/d0ed1fb00b7c5400773139e15c0eba07" method="POST">
                 <div class="fila mitad">
-                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
-                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad" name="name">
+                    <input type="text" placeholder="Direccion de Email" class="input-mitad" name="email">
                 </div>
                 <div class="fila">
-                    <input type="text" placeholder="Tema..." class="input-full">
+                    <input type="text" placeholder="Tema..." class="input-full" name="subject">
                 </div>
                 <div class="fila">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje ..." class="input-full"></textarea>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje ..." class="input-full" name="comments"></textarea>
                 </div>
                 
                 <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+
+                <input type="hidden" name="_next" value="https://portafolio-2024-6gcclm8st-thekiller560.vercel.app/">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </div>
     </Section>
